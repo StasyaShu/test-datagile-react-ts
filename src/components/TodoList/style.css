@@ -1,0 +1,98 @@
+.todo-list__no-todos {
+  text-align: center;
+}
+
+.todo-list {
+  display: block;
+  overflow-y: auto;
+}
+
+.todo-list ul {
+  display: block;
+  list-style: none;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.todo-list li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.todo-list__checkbox {
+  margin: 0 10px 0 0;
+}
+
+.todo-checkbox__label {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+}
+
+.todo-checkbox__label:hover {
+  transform: scale(1.1);
+}
+
+.todo-checkbox__label--checked {
+  background-color: #1a3dc3;
+  transition: all 0.2s ease-in-out;
+}
+
+.todo-checkbox svg {
+  width: 12px;
+  height: 12px;
+}
+
+.todo-checkbox p {
+  width: 80%;
+}
+
+.todo-text-done {
+  text-decoration: line-through;
+}
+
+.todo-checkbox__visible {
+  display: block;
+}
+
+.todo-checkbox__invisible {
+  display: none;
+}
+
+.delete-button {
+  margin: 0 0 0 auto;
+}
+
+.delete-button button {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 3px 3px 8px 0px #cccccc;
+  transition: all 0.2s ease-in-out;
+}
+
+.delete-button button:hover {
+  background-color: #e97d7d;
+  color: #ffffff;
+}
+
+.delete-button svg {
+  width: 20px;
+  height: 20px;
+}
